@@ -1,5 +1,5 @@
--- displays average temp by city in descending order
+-- shows normal temp by city in sliding request
 SELECT state, MAX(value) AS max_temp
 FROM temperatures
 GROUP BY state
-ORDER BY max_temp DESC;
+ORDER BY max_temp DESCi;
